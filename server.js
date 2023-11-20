@@ -13,7 +13,7 @@ init()
 const HTTP_SERVER = express()
 
 HTTP_SERVER.use(CORS({
-    origin:["https://655af38f3b891444f4e542c1--radiant-lollipop-c70905.netlify.app/"],
+    origin:["https://prismatic-llama-4c2c70.netlify.app/"],
     methods:['PUT','POST']
 }))
 

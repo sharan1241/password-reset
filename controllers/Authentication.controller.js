@@ -86,7 +86,7 @@ async function emailVerification(req,res,next){
             }
             
             const key = makeid(5)
-                const html = `<a href="https://655af38f3b891444f4e542c1--radiant-lollipop-c70905.netlify.app/verify/${key}">${key}</a>`
+                const html = `<a href="https://prismatic-llama-4c2c70.netlify.app/verify/${key}">${key}</a>`
             sendMail("sharan1241@gmail.com",req.body.email,"regarding login activity in your BookMyShow Account","login successfull",html
             )
             .then((response)=>{console.log(response)})
